@@ -11,7 +11,7 @@ export const Forth = defineComponent({
             buttons:()=> <>
                 <RouterLink class={style1.fake} to="/welcome/start">跳过</RouterLink>
                 <RouterLink to="/welcome/start">完成</RouterLink>
-                <RouterLink to="/welcome/start">跳过</RouterLink>
+                <RouterLink class={style1.fake} to="/welcome/start">跳过</RouterLink>
               </>
         }
         return () => (
